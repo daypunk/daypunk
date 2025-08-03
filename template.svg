@@ -233,9 +233,9 @@
 
   <!-- 서울 날씨 -->
   <g transform="translate(20, 48)" class="msg-2">
-    <rect width="288" height="66" rx="18" class="bubble" />
-    <text x="15" y="27">저는 서울에서 활동하고 있어요.</text>
-    <text x="15" y="50">오늘 여기 날씨는 {degC}°C, <tspan class="emoji">{weatherEmoji}</tspan> 라네요!</text>
+    <rect width="396" height="66" rx="18" class="bubble" />
+    <text x="15" y="27">저는 서울에서 활동하고 있어요. 오늘 여기 날씨는</text>
+    <text x="15" y="50">{degC}°C, <tspan class="emoji">{weatherEmoji}</tspan> 라네요!</text>
   </g>
 
   <!-- typing 3 -->
@@ -260,7 +260,7 @@
     <rect width="396" height="90" rx="18" class="bubble" />
     <text x="15" y="27">저는 PM이에요. 생명공학을 전공하고, 아트디렉터,</text>
     <text x="15" y="50">프로덕트 디자이너를 거쳤어요. 지금은 제 여정의</text>
-    <text x="15" y="73"><tspan class="emoji">🍒</tspan> cherry on top을 찾는 중이에요.</text>
+    <text x="15" y="73">cherry on top을 찾는 중이에요.</text>
   </g>
 
   <!-- typing 4 -->
