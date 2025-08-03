@@ -234,8 +234,8 @@
   <!-- 서울 날씨 -->
   <g transform="translate(20, 48)" class="msg-2">
     <rect width="396" height="66" rx="18" class="bubble" />
-    <text x="15" y="27">저는 대한민국 서울에 살고 있어요.</text>
-    <text x="15" y="50">오늘 날씨는 34°C, <tspan class="emoji">🌧</tspan> 라네요.</text>
+    <text x="15" y="27">저는 서울에서 활동하고 있어요.</text>
+    <text x="15" y="50">오늘 여기 날씨는 34°C, <tspan class="emoji">🌧</tspan> 라네요!</text>
   </g>
 
   <!-- typing 3 -->
