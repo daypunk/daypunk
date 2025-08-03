@@ -74,44 +74,44 @@
     @keyframes msg-1 {
       0% {
         opacity: 0;
-        transform: translate(10px, 5px);
+        transform: translate(20px, 5px);
       }
       100% {
         opacity: 1;
-        transform: translate(10px, 0);
+        transform: translate(20px, 0);
       }
     }
 
     @keyframes msg-2 {
       0% {
         opacity: 0;
-        transform: translate(10px, 53px);
+        transform: translate(20px, 53px);
       }
       100% {
         opacity: 1;
-        transform: translate(10px, 48px);
+        transform: translate(20px, 48px);
       }
     }
 
     @keyframes msg-3 {
       0% {
         opacity: 0;
-        transform: translate(10px, 125px);
+        transform: translate(20px, 125px);
       }
       100% {
         opacity: 1;
-        transform: translate(10px, 120px);
+        transform: translate(20px, 120px);
       }
     }
 
     @keyframes msg-4 {
       0% {
         opacity: 0;
-        transform: translate(10px, 221px);
+        transform: translate(20px, 221px);
       }
       100% {
         opacity: 1;
-        transform: translate(10px, 216px);
+        transform: translate(20px, 216px);
       }
     }
 
@@ -209,7 +209,7 @@
   </g>
 
   <!-- 안녕하세요, 김대희입니다 -->
-  <g transform="translate(10, 0)" class="msg-1 bubble">
+  <g transform="translate(20, 0)" class="msg-1 bubble">
     <rect width="220" height="42" rx="18" />
     <text x="15" y="27">안녕하세요, 김대희입니다.</text>
   </g>
@@ -232,7 +232,7 @@
   </g>
 
   <!-- 서울 날씨 -->
-  <g transform="translate(10, 48)" class="msg-2">
+  <g transform="translate(20, 48)" class="msg-2">
     <rect width="396" height="66" rx="18" class="bubble" />
     <text x="15" y="27">저는 대한민국 서울에 살고 있어요.</text>
     <text x="15" y="50">오늘 날씨는 {degC}°C, <tspan class="emoji">{weatherEmoji}</tspan> 라네요.</text>
@@ -256,7 +256,7 @@
   </g>
 
   <!-- 경력 소개 -->
-  <g transform="translate(10, 120)" class="msg-3">
+  <g transform="translate(20, 120)" class="msg-3">
     <rect width="396" height="90" rx="18" class="bubble" />
     <text x="15" y="27">저는 PM이에요. 생명공학을 전공하고, 아트디렉터,</text>
     <text x="15" y="50">프로덕트 디자이너를 거쳤어요. 지금은 제 여정의</text>
@@ -281,7 +281,7 @@
   </g>
 
     <!-- 좋은 하루 -->
-  <g transform="translate(10, 216)" class="msg-4">
+  <g transform="translate(20, 216)" class="msg-4">
     <rect width="192" height="42" rx="18" class="bubble" />
     <text x="15" y="27">좋은 하루 보내세요! <tspan class="emoji">🤘</tspan></text>
   </g>
