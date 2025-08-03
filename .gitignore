@@ -1,0 +1,12 @@
+# API 키 보안
+.env
+
+# 의존성
+node_modules/
+
+# 로그
+*.log
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db

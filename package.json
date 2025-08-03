@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "daypunk-profile",
+  "version": "0.0.0",
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "2.3.0"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.2.1",
+    "got": "^14.4.7",
+    "js-quantities": "^1.8.0"
+  }
+}
