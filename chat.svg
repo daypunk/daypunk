@@ -1,13 +1,13 @@
 <svg width="500" height="300" viewBox="0 0 500 300" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <style>
     .bubble {
-      fill: #E5E5EA;
+      fill: #3A3A3C;
     }
     a {
-      fill: #0079ff;
+      fill: #0c82f9;
     }
     text {
-      fill: #242424;
+      fill: #dcdcdc;
       font-size: 18px;
       font-family: 'Inter';
       letter-spacing: -0.00em;
@@ -118,13 +118,13 @@
 
     @media (prefers-color-scheme: dark) {
       .bubble {
-        fill: #E5E5EA;
+        fill: #3A3A3C;
       }
       text {
-        fill: #242424;
+        fill: #dcdcdc;
       }
       a {
-        fill: #0079ff;
+        fill: #0c82f9;
       }
     }
 
