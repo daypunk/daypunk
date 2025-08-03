@@ -1,4 +1,4 @@
-<svg width="500" height="300" viewBox="0 0 500 300" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="500" height="260" viewBox="0 0 500 260" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <style>
     .bubble {
       fill: #3A3A3C;
@@ -233,9 +233,9 @@
 
   <!-- 서울 날씨 -->
   <g transform="translate(20, 48)" class="msg-2">
-    <rect width="396" height="66" rx="18" class="bubble" />
-    <text x="15" y="27">저는 서울에서 활동하고 있어요. 지금 여기 날씨는</text>
-    <text x="15" y="50">34°C, <tspan class="emoji">🌧</tspan> 이렇습니다!</text>
+    <rect width="350" height="66" rx="18" class="bubble" />
+    <text x="15" y="27">서울에서 활동하고 있어요. 오늘 여기 날씨는</text>
+    <text x="15" y="50">34°C, <tspan class="emoji">🌧</tspan> 이렇답니다!</text>
   </g>
 
   <!-- typing 3 -->
