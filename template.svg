@@ -258,9 +258,9 @@
   <!-- 경력 소개 -->
   <g transform="translate(20, 126)" class="msg-3">
     <rect width="396" height="90" rx="18" class="bubble" />
-    <text x="15" y="27">저는 PM이에요. 생명공학을 전공하고, 아트디렉터,</text>
+    <text x="15" y="27">저는 PM이에요. 생명공학을 전공했고, 아트디렉터,</text>
     <text x="15" y="50">프로덕트 디자이너를 거쳤어요. 지금은 제 여정의</text>
-    <text x="15" y="73">cherry on top을 찾는 중이에요.</text>
+    <text x="15" y="73">cherry on top을 찾고 있습니다.</text>
   </g>
 
   <!-- typing 4 -->
