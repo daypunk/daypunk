@@ -1,0 +1,46 @@
+name: Update README SVG
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 매일 오전 9시 (UTC+9 기준)
+  workflow_dispatch:  # 수동 실행 가능
+  push:
+    branches: [ main ]  # 푸시할 때도 업데이트
+
+jobs:
+  update-svg:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # 파일 수정 권한
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Update SVG with latest weather
+        env:
+          WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
+        run: node build-svg.js
+        
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add chat.svg
+          
+          # 변경사항이 있을 때만 커밋
+          if git diff --staged --quiet; then
+            echo "변경사항이 없습니다."
+          else
+            git commit -m "🌤️ $(date +'%Y-%m-%d') 날씨 업데이트"
+            git push
+          fi
