@@ -2,7 +2,7 @@ name: Update README SVG
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 매일 오전 9시 (UTC+9)
+    - cron: '0 3,9,15,21 * * *'  # 한국시간 0시, 6시, 12시, 18시 (UTC+9)
   workflow_dispatch:  # 수동 실행
   push:
     branches: [ main ]  # 푸시할 때도 업데이트
@@ -41,6 +41,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "변경사항이 없습니다."
           else
-            git commit -m "🌤️ $(date +'%Y-%m-%d') 날씨 업데이트 ㅋㅋ"
+            git commit -m "🌤️ $(TZ='Asia/Seoul' date +'%Y-%m-%d') 날씨 업데이트 ㅋㅋ"
             git push
           fi

@@ -43,21 +43,22 @@ const emojis = {
 
 // 오늘 요일 정보
 const today = new Date()
-const todayDay = new Intl.DateTimeFormat('ko-KR', { weekday: 'long' }).format(
-  today
-)
+const todayDay = new Intl.DateTimeFormat('ko-KR', { 
+  weekday: 'long',
+  timeZone: 'Asia/Seoul'
+}).format(today)
 
-// 서울 날씨 정보
+// 서울 실시간 날씨 정보
 const locationKey = '226081'
-let url = `forecasts/v1/daily/1day/${locationKey}?apikey=${WEATHER_API_KEY}`
+let url = `currentconditions/v1/${locationKey}?apikey=${WEATHER_API_KEY}`
 
 got(url, { prefixUrl: WEATHER_DOMAIN })
   .then((response) => {
     let json = JSON.parse(response.body)
 
-    const degF = Math.round(json.DailyForecasts[0].Temperature.Maximum.Value)
+    const degF = Math.round(json[0].Temperature.Imperial.Value)
     const degC = Math.round(Qty(`${degF} tempF`).to('tempC').scalar)
-    const icon = json.DailyForecasts[0].Day.Icon
+    const icon = json[0].WeatherIcon
 
     fs.readFile('template.svg', 'utf-8', (error, data) => {
       if (error) {
