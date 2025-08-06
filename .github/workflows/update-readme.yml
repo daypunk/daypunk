@@ -33,8 +33,8 @@ jobs:
         
       - name: Commit and push changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "daehee3853@gmail.com"
+          git config --local user.name "daypunk"
           git add chat.svg
           
           # 변경사항이 있을 때만 커밋
