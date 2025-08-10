@@ -235,7 +235,7 @@
   <g transform="translate(20, 51)" class="msg-2">
     <rect width="350" height="66" rx="18" class="bubble" />
     <text x="15" y="27">서울에서 활동하고 있어요. 지금 여기 날씨는</text>
-    <text x="15" y="50">32°C, <tspan class="emoji">☀️</tspan> 이렇답니다!</text>
+    <text x="15" y="50">24°C, <tspan class="emoji">undefined</tspan> 이렇답니다!</text>
   </g>
 
   <!-- typing 3 -->
