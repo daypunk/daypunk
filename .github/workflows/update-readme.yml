@@ -41,6 +41,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "변경사항이 없습니다."
           else
-            git commit -m "🌤️ $(TZ='Asia/Seoul' date +'%Y-%m-%d') 날씨 업데이트 ㅋㅋ"
+            git commit -m "$(TZ='Asia/Seoul' date +'%Y-%m-%d') today weather update"
             git push
           fi
