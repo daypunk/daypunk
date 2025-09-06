@@ -43,7 +43,7 @@ const emojis = {
 
 // 오늘 요일 정보
 const today = new Date()
-const todayDay = new Intl.DateTimeFormat('ko-KR', { 
+const todayDay = new Intl.DateTimeFormat('en-US', { 
   weekday: 'long',
   timeZone: 'Asia/Seoul'
 }).format(today)
