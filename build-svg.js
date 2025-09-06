@@ -66,7 +66,7 @@ got(url, { prefixUrl: WEATHER_DOMAIN })
       }
 
       data = data.replace('{degC}', degC)
-      data = data.replace('{weatherEmoji}', emojis[icon])
+      data = data.replace('{weatherEmoji}', emojis[icon] || '🌤️')
       data = data.replace('{todayDay}', todayDay)
 
       data = fs.writeFile('chat.svg', data, (err) => {
