@@ -272,9 +272,9 @@
 
   <!-- 서울 날씨 -->
   <g transform="translate(20, 51)" class="msg-2">
-    <rect width="370" height="66" rx="18" class="bubble" />
+    <rect width="355" height="66" rx="18" class="bubble" />
     <text x="15" y="27">I’m based in Seoul, Korea.</text>
-    <text x="15" y="50">The weather here today is 26°C. <tspan class="emoji">🌥</tspan></text>
+    <text x="15" y="50">The weather here today is 26°C <tspan class="emoji">🌥</tspan></text>
   </g>
 
   <!-- typing 3 -->
@@ -372,6 +372,6 @@
   <!-- 맺음말 -->
   <g transform="translate(20, 635)" class="msg-6">
     <rect width="310" height="42" rx="18" class="bubble" />
-    <text x="15" y="27">Have a productive 토요일 <tspan class="emoji">😉</tspan></text>
+    <text x="15" y="27">Have a productive Saturday <tspan class="emoji">😉</tspan></text>
   </g>
 </svg>
