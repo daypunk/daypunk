@@ -272,9 +272,9 @@
 
   <!-- 서울 날씨 -->
   <g transform="translate(20, 51)" class="msg-2">
-    <rect width="370" height="66" rx="18" class="bubble" />
+    <rect width="355" height="66" rx="18" class="bubble" />
     <text x="15" y="27">I’m based in Seoul, Korea.</text>
-    <text x="15" y="50">The weather here today is {degC}°C. <tspan class="emoji">{weatherEmoji}</tspan></text>
+    <text x="15" y="50">The weather here today is {degC}°C <tspan class="emoji">{weatherEmoji}</tspan></text>
   </g>
 
   <!-- typing 3 -->
