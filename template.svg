@@ -1,13 +1,13 @@
 <svg width="500" height="700" viewBox="0 0 500 700" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <style>
     .bubble {
-      fill: #3A3A3C;
+      fill: #2E303B;
     }
     a {
-      fill: #0c82f9;
+      fill: url(#linkGradient);
     }
     text {
-      fill: #dcdcdc;
+      fill: #DDDDDD;
       font-size: 18px;
       font-family: 'Inter';
       letter-spacing: -0.00em;
@@ -157,17 +157,24 @@
 
     @media (prefers-color-scheme: dark) {
       .bubble {
-        fill: #3A3A3C;
+        fill: #2E303B;
       }
       text {
-        fill: #dcdcdc;
+        fill: #DDDDDD;
       }
       a {
-        fill: #0c82f9;
+        fill: url(#linkGradient);
       }
     }
 
   </style>
+
+  <defs>
+    <linearGradient id="linkGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0095FF"/>
+      <stop offset="100%" stop-color="#D3F9FF"/>
+    </linearGradient>
+  </defs>
   
   <defs>
     <style>
@@ -249,8 +256,8 @@
 
   <!-- 안녕하세요, 김대희입니다 -->
   <g transform="translate(20, 0)" class="msg-1 bubble">
-    <rect width="160" height="42" rx="18" />
-    <text x="15" y="27">Hello, it's Day.</text>
+    <rect width="150" height="42" rx="18" />
+    <text x="15" y="27">Hello, it's <tspan fill="url(#linkGradient)">Day</tspan></text>
   </g>
 
   <!-- typing 2 -->
@@ -272,7 +279,7 @@
 
   <!-- 서울 날씨 -->
   <g transform="translate(20, 51)" class="msg-2">
-    <rect width="355" height="66" rx="18" class="bubble" />
+    <rect width="335" height="66" rx="18" class="bubble" />
     <text x="15" y="27">I’m based in Seoul, Korea.</text>
     <text x="15" y="50">The weather here today is {degC}°C <tspan class="emoji">{weatherEmoji}</tspan></text>
   </g>
