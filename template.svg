@@ -171,8 +171,15 @@
 
   <defs>
     <linearGradient id="linkGradient" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#0095FF"/>
-      <stop offset="100%" stop-color="#D3F9FF"/>
+      <stop offset="0%" stop-color="#0099FF"/>
+      <stop offset="100%" stop-color="#9DFDFF"/>
+    </linearGradient>
+  </defs>
+
+  <defs>
+    <linearGradient id="linkGradient2" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#FFB1D7"/>
+      <stop offset="100%" stop-color="#DDDDDD"/>
     </linearGradient>
   </defs>
   
@@ -306,7 +313,7 @@
     <rect width="424" height="90" rx="18" class="bubble" />
     <text x="15" y="27">Working as a PM, with a background</text>
     <text x="15" y="50">in biology, design, and product strategy.</text>
-    <text x="15" y="73">Now seeking the cherry on top of my career.</text>
+    <text x="15" y="73"><tspan fill="url(#linkGradient2)">Now seeking the cherry on top of my career.</tspan></text>
   </g>
 
   <!-- typing 4 -->
