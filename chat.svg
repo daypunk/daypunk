@@ -355,8 +355,8 @@
   <!-- 홈페이지 링크 -->
   <g transform="translate(20, 560)" class="msg-5">
     <rect width="310" height="66" rx="18" class="bubble" />
-    <text x="15" y="27">For more, find me in my space</text>
-    <text x="15" y="50"><a xlink:href="https://www.daypunk.com">https://www.daypunk.com</a></text>
+    <text x="15" y="27">For more, find me in my space!</text>
+    <text x="15" y="50"><tspan fill="url(#linkGradient)">https://www.daypunk.com</tspan></text>
   </g>
 
   <!-- typing 6 -->
@@ -379,6 +379,6 @@
   <!-- 맺음말 -->
   <g transform="translate(20, 635)" class="msg-6">
     <rect width="310" height="42" rx="18" class="bubble" />
-    <text x="15" y="27">Have a productive Saturday <tspan class="emoji">😉</tspan></text>
+    <text x="15" y="27">Have a productive Saturday. <tspan class="emoji">😉</tspan></text>
   </g>
 </svg>
