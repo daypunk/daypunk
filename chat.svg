@@ -257,7 +257,7 @@
   <!-- 안녕하세요, 김대희입니다 -->
   <g transform="translate(20, 0)" class="msg-1 bubble">
     <rect width="150" height="42" rx="18" />
-    <text x="15" y="27">Hello, it's <tspan fill="url(#linkGradient)">Day</tspan></text>
+    <text x="15" y="27">Hello, it’s <tspan fill="url(#linkGradient)">Day</tspan></text>
   </g>
 
   <!-- typing 2 -->
