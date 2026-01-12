@@ -288,7 +288,7 @@
   <g transform="translate(20, 51)" class="msg-2">
     <rect width="335" height="66" rx="18" class="bubble" />
     <text x="15" y="27">I’m based in Seoul, Korea.</text>
-    <text x="15" y="50">The weather here today is -10°C <tspan class="emoji">🌨</tspan></text>
+    <text x="15" y="50">The weather here today is 0°C <tspan class="emoji">🌥</tspan></text>
   </g>
 
   <!-- typing 3 -->
